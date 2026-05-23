@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DominaDigital</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+        background:#0f172a;
+        color:white;
+    }
+
+    /* ENCABEZADO */
+    header{
+        background:linear-gradient(90deg,#0ea5e9,#1e293b);
+        padding:25px;
+        text-align:center;
+        box-shadow:0 0 15px rgba(0,0,0,0.5);
+    }
+
+    header h1{
+        font-size:45px;
+        color:#facc15;
+        text-shadow:2px 2px 10px black;
+        letter-spacing:3px;
+    }
+
+    /* CONTENEDOR PRINCIPAL */
+    .contenedor{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap:20px;
+        padding:20px;
+    }
+
+    /* MARCOS */
+    .marco{
+        background:#1e293b;
+        border:2px solid #0ea5e9;
+        border-radius:15px;
+        padding:20px;
+        box-shadow:0 0 20px rgba(14,165,233,0.3);
+        transition:0.3s;
+    }
+
+    .marco:hover{
+        transform:scale(1.02);
+        box-shadow:0 0 25px rgba(250,204,21,0.5);
+    }
+
+    .marco h2{
+        color:#facc15;
+        margin-bottom:15px;
+        text-align:center;
+    }
+
+    .marco p{
+        line-height:1.7;
+        color:#e2e8f0;
+    }
+
+    /* FOOTER */
+    footer{
+        text-align:center;
+        padding:20px;
+        margin-top:20px;
+        background:#111827;
+        color:#94a3b8;
+    }
+
+    /* RESPONSIVE */
+    @media(max-width:900px){
+        .contenedor{
+            grid-template-columns:1fr;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>DominaDigital</h1>
+</header>
+
+<div class="contenedor">
+
+    <!-- MARCO 1 -->
+    <div class="marco">
+        <h2>🚀 Nuevas Tecnologías</h2>
+        <p>
+            La tecnología avanza rápidamente con innovaciones como la inteligencia artificial,
+            realidad virtual, computación en la nube y automatización inteligente.
+            Estas herramientas están transformando empresas, educación y la vida cotidiana.
+        </p>
+
+        <br>
+
+        <p>
+            DominaDigital te mantiene informado sobre las últimas tendencias tecnológicas,
+            dispositivos modernos y avances digitales que están cambiando el mundo.
+        </p>
+    </div>
+
+    <!-- MARCO 2 -->
+    <div class="marco">
+        <h2>💻 Programación</h2>
+        <p>
+            Aprende desarrollo web, programación en Python, JavaScript, PHP y creación
+            de aplicaciones modernas. La programación es una de las habilidades más
+            importantes del futuro digital.
+        </p>
+
+        <br>
+
+        <p>
+            Aquí encontrarás contenido sobre páginas web, bases de datos, automatización,
+            software y soluciones tecnológicas para proyectos profesionales.
+        </p>
+    </div>
+
+    <!-- MARCO 3 -->
+    <div class="marco">
+        <h2>🤖 Chat e Inteligencia Artificial</h2>
+        <p>
+            Los chats inteligentes y la IA permiten automatizar respuestas,
+            generar contenido, ayudar en tareas y mejorar negocios digitales.
+        </p>
+
+        <br>
+
+        <p>
+            Descubre cómo usar herramientas modernas de inteligencia artificial
+            para potenciar redes sociales, marketing digital y proyectos online.
+        </p>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 DominaDigital - Tecnología y Programación
+</footer>
+
+</body>
+</html>
